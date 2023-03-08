@@ -241,6 +241,7 @@ function cookiesStandLocation(min, max, avg, location, hours) {
         }
         return this.cookiesPerHour;
     }
+    
     stand.tableFiller = function () {
         let tableLoc = document.createElement('tr');
         let tableHours = document.createElement('th');

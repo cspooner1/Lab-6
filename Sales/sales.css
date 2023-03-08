@@ -1,0 +1,34 @@
+* {
+background-color: rgb(216, 111, 146);
+color: white;
+
+}
+
+ul{
+    list-style: none;
+    display:inline-table;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    font-size:x-small;
+    height: min-content;
+    width: min-content;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(0, 0, 0);
+    font-size:small;
+    height: min-content;
+    width: min-content;
+  }
+  
+  th, td {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+  th{
+    background-color: black;
+  }
